@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="quash"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Zacula/Desktop/quash/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Zacula/Desktop/quash/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Zacula/Desktop/quash/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quash">
+				<Option output="/Users/Zacula/Desktop/quash/cmake-build-debug/quash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Zacula/Desktop/quash/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 quash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="quash/fast">
+				<Option output="/Users/Zacula/Desktop/quash/cmake-build-debug/quash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Zacula/Desktop/quash/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 quash/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Zacula/Desktop/quash/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/command.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/command.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/debug.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/deque.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/execute.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/execute.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/lex.yy.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/memory_pool.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/memory_pool.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/parse.tab.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/parse.tab.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/parsing_interface.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/parsing/parsing_interface.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/quash.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/src/quash.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/test-cases/test-setup/delayed_echo.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/quash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
