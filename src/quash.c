@@ -132,7 +132,7 @@ int main(int argc, char** argv) {
     if (script != NULL)
       run_script(script);
 
-    destroy_memory_pool();
+    destroy_mecmory_pool();
   }
 
   return EXIT_SUCCESS;
