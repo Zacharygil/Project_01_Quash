@@ -249,76 +249,76 @@ CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.provides: CMakeFiles
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.provides.build: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o
 
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.o: CMakeFiles/quash.dir/flags.make
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.o: ../src/parsing/JobHandler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/quash.dir/src/parsing/JobHandler.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/JobHandler.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c
+CMakeFiles/quash.dir/src/JobHandler.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/JobHandler.c.o: ../src/JobHandler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/quash.dir/src/JobHandler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/JobHandler.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/JobHandler.c
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/JobHandler.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c > CMakeFiles/quash.dir/src/parsing/JobHandler.c.i
+CMakeFiles/quash.dir/src/JobHandler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/JobHandler.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/JobHandler.c > CMakeFiles/quash.dir/src/JobHandler.c.i
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/JobHandler.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c -o CMakeFiles/quash.dir/src/parsing/JobHandler.c.s
+CMakeFiles/quash.dir/src/JobHandler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/JobHandler.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/JobHandler.c -o CMakeFiles/quash.dir/src/JobHandler.c.s
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires:
+CMakeFiles/quash.dir/src/JobHandler.c.o.requires:
 
-.PHONY : CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
+.PHONY : CMakeFiles/quash.dir/src/JobHandler.c.o.requires
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides.build
-.PHONY : CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides
+CMakeFiles/quash.dir/src/JobHandler.c.o.provides: CMakeFiles/quash.dir/src/JobHandler.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/JobHandler.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/JobHandler.c.o.provides
 
-CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
-
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o: CMakeFiles/quash.dir/flags.make
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o: ../src/parsing/BackGroundJob.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c > CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c -o CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires:
-
-.PHONY : CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides.build
-.PHONY : CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides
-
-CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
+CMakeFiles/quash.dir/src/JobHandler.c.o.provides.build: CMakeFiles/quash.dir/src/JobHandler.c.o
 
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o: CMakeFiles/quash.dir/flags.make
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o: ../src/parsing/ForeGroundJob.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c
+CMakeFiles/quash.dir/src/BackGroundJob.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/BackGroundJob.c.o: ../src/BackGroundJob.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/quash.dir/src/BackGroundJob.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/BackGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/BackGroundJob.c
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c > CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i
+CMakeFiles/quash.dir/src/BackGroundJob.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/BackGroundJob.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/BackGroundJob.c > CMakeFiles/quash.dir/src/BackGroundJob.c.i
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c -o CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s
+CMakeFiles/quash.dir/src/BackGroundJob.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/BackGroundJob.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/BackGroundJob.c -o CMakeFiles/quash.dir/src/BackGroundJob.c.s
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires:
+CMakeFiles/quash.dir/src/BackGroundJob.c.o.requires:
 
-.PHONY : CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
+.PHONY : CMakeFiles/quash.dir/src/BackGroundJob.c.o.requires
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides.build
-.PHONY : CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides
+CMakeFiles/quash.dir/src/BackGroundJob.c.o.provides: CMakeFiles/quash.dir/src/BackGroundJob.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/BackGroundJob.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/BackGroundJob.c.o.provides
 
-CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
+CMakeFiles/quash.dir/src/BackGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/BackGroundJob.c.o
+
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/ForeGroundJob.c.o: ../src/ForeGroundJob.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/quash.dir/src/ForeGroundJob.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/ForeGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/ForeGroundJob.c
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/ForeGroundJob.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/ForeGroundJob.c > CMakeFiles/quash.dir/src/ForeGroundJob.c.i
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/ForeGroundJob.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/ForeGroundJob.c -o CMakeFiles/quash.dir/src/ForeGroundJob.c.s
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.o.requires:
+
+.PHONY : CMakeFiles/quash.dir/src/ForeGroundJob.c.o.requires
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.o.provides: CMakeFiles/quash.dir/src/ForeGroundJob.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/ForeGroundJob.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/ForeGroundJob.c.o.provides
+
+CMakeFiles/quash.dir/src/ForeGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/ForeGroundJob.c.o
 
 
 # Object files for target quash
@@ -331,9 +331,9 @@ quash_OBJECTS = \
 "CMakeFiles/quash.dir/src/execute.c.o" \
 "CMakeFiles/quash.dir/src/quash.c.o" \
 "CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o" \
-"CMakeFiles/quash.dir/src/parsing/JobHandler.c.o" \
-"CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o" \
-"CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o"
+"CMakeFiles/quash.dir/src/JobHandler.c.o" \
+"CMakeFiles/quash.dir/src/BackGroundJob.c.o" \
+"CMakeFiles/quash.dir/src/ForeGroundJob.c.o"
 
 # External object files for target quash
 quash_EXTERNAL_OBJECTS =
@@ -346,9 +346,9 @@ quash: CMakeFiles/quash.dir/src/command.c.o
 quash: CMakeFiles/quash.dir/src/execute.c.o
 quash: CMakeFiles/quash.dir/src/quash.c.o
 quash: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o
-quash: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
-quash: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
-quash: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
+quash: CMakeFiles/quash.dir/src/JobHandler.c.o
+quash: CMakeFiles/quash.dir/src/BackGroundJob.c.o
+quash: CMakeFiles/quash.dir/src/ForeGroundJob.c.o
 quash: CMakeFiles/quash.dir/build.make
 quash: CMakeFiles/quash.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable quash"
@@ -367,9 +367,9 @@ CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/command.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/execute.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/quash.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.requires
-CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
-CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
-CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/JobHandler.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/BackGroundJob.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/ForeGroundJob.c.o.requires
 
 .PHONY : CMakeFiles/quash.dir/requires
 

@@ -123,6 +123,87 @@ quash/fast:
 	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/build
 .PHONY : quash/fast
 
+src/BackGroundJob.o: src/BackGroundJob.c.o
+
+.PHONY : src/BackGroundJob.o
+
+# target to build an object file
+src/BackGroundJob.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/BackGroundJob.c.o
+.PHONY : src/BackGroundJob.c.o
+
+src/BackGroundJob.i: src/BackGroundJob.c.i
+
+.PHONY : src/BackGroundJob.i
+
+# target to preprocess a source file
+src/BackGroundJob.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/BackGroundJob.c.i
+.PHONY : src/BackGroundJob.c.i
+
+src/BackGroundJob.s: src/BackGroundJob.c.s
+
+.PHONY : src/BackGroundJob.s
+
+# target to generate assembly for a file
+src/BackGroundJob.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/BackGroundJob.c.s
+.PHONY : src/BackGroundJob.c.s
+
+src/ForeGroundJob.o: src/ForeGroundJob.c.o
+
+.PHONY : src/ForeGroundJob.o
+
+# target to build an object file
+src/ForeGroundJob.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/ForeGroundJob.c.o
+.PHONY : src/ForeGroundJob.c.o
+
+src/ForeGroundJob.i: src/ForeGroundJob.c.i
+
+.PHONY : src/ForeGroundJob.i
+
+# target to preprocess a source file
+src/ForeGroundJob.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/ForeGroundJob.c.i
+.PHONY : src/ForeGroundJob.c.i
+
+src/ForeGroundJob.s: src/ForeGroundJob.c.s
+
+.PHONY : src/ForeGroundJob.s
+
+# target to generate assembly for a file
+src/ForeGroundJob.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/ForeGroundJob.c.s
+.PHONY : src/ForeGroundJob.c.s
+
+src/JobHandler.o: src/JobHandler.c.o
+
+.PHONY : src/JobHandler.o
+
+# target to build an object file
+src/JobHandler.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/JobHandler.c.o
+.PHONY : src/JobHandler.c.o
+
+src/JobHandler.i: src/JobHandler.c.i
+
+.PHONY : src/JobHandler.i
+
+# target to preprocess a source file
+src/JobHandler.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/JobHandler.c.i
+.PHONY : src/JobHandler.c.i
+
+src/JobHandler.s: src/JobHandler.c.s
+
+.PHONY : src/JobHandler.s
+
+# target to generate assembly for a file
+src/JobHandler.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/JobHandler.c.s
+.PHONY : src/JobHandler.c.s
+
 src/command.o: src/command.c.o
 
 .PHONY : src/command.o
@@ -176,87 +257,6 @@ src/execute.s: src/execute.c.s
 src/execute.c.s:
 	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/execute.c.s
 .PHONY : src/execute.c.s
-
-src/parsing/BackGroundJob.o: src/parsing/BackGroundJob.c.o
-
-.PHONY : src/parsing/BackGroundJob.o
-
-# target to build an object file
-src/parsing/BackGroundJob.c.o:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
-.PHONY : src/parsing/BackGroundJob.c.o
-
-src/parsing/BackGroundJob.i: src/parsing/BackGroundJob.c.i
-
-.PHONY : src/parsing/BackGroundJob.i
-
-# target to preprocess a source file
-src/parsing/BackGroundJob.c.i:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i
-.PHONY : src/parsing/BackGroundJob.c.i
-
-src/parsing/BackGroundJob.s: src/parsing/BackGroundJob.c.s
-
-.PHONY : src/parsing/BackGroundJob.s
-
-# target to generate assembly for a file
-src/parsing/BackGroundJob.c.s:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s
-.PHONY : src/parsing/BackGroundJob.c.s
-
-src/parsing/ForeGroundJob.o: src/parsing/ForeGroundJob.c.o
-
-.PHONY : src/parsing/ForeGroundJob.o
-
-# target to build an object file
-src/parsing/ForeGroundJob.c.o:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
-.PHONY : src/parsing/ForeGroundJob.c.o
-
-src/parsing/ForeGroundJob.i: src/parsing/ForeGroundJob.c.i
-
-.PHONY : src/parsing/ForeGroundJob.i
-
-# target to preprocess a source file
-src/parsing/ForeGroundJob.c.i:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i
-.PHONY : src/parsing/ForeGroundJob.c.i
-
-src/parsing/ForeGroundJob.s: src/parsing/ForeGroundJob.c.s
-
-.PHONY : src/parsing/ForeGroundJob.s
-
-# target to generate assembly for a file
-src/parsing/ForeGroundJob.c.s:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s
-.PHONY : src/parsing/ForeGroundJob.c.s
-
-src/parsing/JobHandler.o: src/parsing/JobHandler.c.o
-
-.PHONY : src/parsing/JobHandler.o
-
-# target to build an object file
-src/parsing/JobHandler.c.o:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
-.PHONY : src/parsing/JobHandler.c.o
-
-src/parsing/JobHandler.i: src/parsing/JobHandler.c.i
-
-.PHONY : src/parsing/JobHandler.i
-
-# target to preprocess a source file
-src/parsing/JobHandler.c.i:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.i
-.PHONY : src/parsing/JobHandler.c.i
-
-src/parsing/JobHandler.s: src/parsing/JobHandler.c.s
-
-.PHONY : src/parsing/JobHandler.s
-
-# target to generate assembly for a file
-src/parsing/JobHandler.c.s:
-	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.s
-.PHONY : src/parsing/JobHandler.c.s
 
 src/parsing/lex.yy.o: src/parsing/lex.yy.c.o
 
@@ -429,21 +429,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... quash"
+	@echo "... src/BackGroundJob.o"
+	@echo "... src/BackGroundJob.i"
+	@echo "... src/BackGroundJob.s"
+	@echo "... src/ForeGroundJob.o"
+	@echo "... src/ForeGroundJob.i"
+	@echo "... src/ForeGroundJob.s"
+	@echo "... src/JobHandler.o"
+	@echo "... src/JobHandler.i"
+	@echo "... src/JobHandler.s"
 	@echo "... src/command.o"
 	@echo "... src/command.i"
 	@echo "... src/command.s"
 	@echo "... src/execute.o"
 	@echo "... src/execute.i"
 	@echo "... src/execute.s"
-	@echo "... src/parsing/BackGroundJob.o"
-	@echo "... src/parsing/BackGroundJob.i"
-	@echo "... src/parsing/BackGroundJob.s"
-	@echo "... src/parsing/ForeGroundJob.o"
-	@echo "... src/parsing/ForeGroundJob.i"
-	@echo "... src/parsing/ForeGroundJob.s"
-	@echo "... src/parsing/JobHandler.o"
-	@echo "... src/parsing/JobHandler.i"
-	@echo "... src/parsing/JobHandler.s"
 	@echo "... src/parsing/lex.yy.o"
 	@echo "... src/parsing/lex.yy.i"
 	@echo "... src/parsing/lex.yy.s"

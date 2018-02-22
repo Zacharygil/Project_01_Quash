@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/BackGroundJob.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/BackGroundJob.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/ForeGroundJob.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/ForeGroundJob.h">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/JobHandler.c">
+			<Option target="quash"/>
+		</Unit>
+		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/JobHandler.h">
+			<Option target="quash"/>
+		</Unit>
 		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/command.c">
 			<Option target="quash"/>
 		</Unit>
@@ -96,24 +114,6 @@
 			<Option target="quash"/>
 		</Unit>
 		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/execute.h">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.h">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.h">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c">
-			<Option target="quash"/>
-		</Unit>
-		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.h.h">
 			<Option target="quash"/>
 		</Unit>
 		<Unit filename="/Users/Zacula/Desktop/Project_01_Quash/src/parsing/lex.yy.c">
