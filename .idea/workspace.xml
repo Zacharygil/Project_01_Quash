@@ -12,10 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6916fb-09cc-42de-bb3d-ecc298ea6e16" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackGroundJob.h" afterPath="$PROJECT_DIR$/src/BackGroundJob.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JobHandler.h" afterPath="$PROJECT_DIR$/src/JobHandler.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/execute.c" afterPath="$PROJECT_DIR$/src/execute.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/execute.h" afterPath="$PROJECT_DIR$/src/execute.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="execute.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="execute.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/execute.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
@@ -41,6 +38,16 @@
               <folding>
                 <element signature="e#246#266#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,16 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForeGroundJob.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ForeGroundJob.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ForeGroundJob.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ForeGroundJob.h">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/BackGroundJob.h" />
         <option value="$PROJECT_DIR$/src/execute.h" />
         <option value="$PROJECT_DIR$/src/execute.c" />
+        <option value="$PROJECT_DIR$/Makefile" />
       </list>
     </option>
   </component>
@@ -425,12 +423,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519155102667</updated>
-      <workItem from="1519155104540" duration="8335000" />
+      <workItem from="1519155104540" duration="8698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8335000" />
+    <option name="totallyTimeSpent" value="8698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -592,6 +590,14 @@
           <folding>
             <element signature="e#246#266#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
