@@ -19,6 +19,6 @@ set(SOURCE_FILES
     src/execute.h
     src/quash.c
     src/quash.h
-    test-cases/test-setup/delayed_echo.c)
+    test-cases/test-setup/delayed_echo.c src/JobHandler.c src/JobHandler.h src/BackGroundJob.c src/BackGroundJob.h src/ForeGroundJob.c src/ForeGroundJob.h)
 
 add_executable(quash ${SOURCE_FILES})

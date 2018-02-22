@@ -1,3 +1,3 @@
-/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir
+/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir

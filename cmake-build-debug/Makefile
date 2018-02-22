@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Zacula/Desktop/quash
+CMAKE_SOURCE_DIR = /Users/Zacula/Desktop/Project_01_Quash
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Zacula/Desktop/quash/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles /Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,87 @@ src/execute.s: src/execute.c.s
 src/execute.c.s:
 	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/execute.c.s
 .PHONY : src/execute.c.s
+
+src/parsing/BackGroundJob.o: src/parsing/BackGroundJob.c.o
+
+.PHONY : src/parsing/BackGroundJob.o
+
+# target to build an object file
+src/parsing/BackGroundJob.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
+.PHONY : src/parsing/BackGroundJob.c.o
+
+src/parsing/BackGroundJob.i: src/parsing/BackGroundJob.c.i
+
+.PHONY : src/parsing/BackGroundJob.i
+
+# target to preprocess a source file
+src/parsing/BackGroundJob.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i
+.PHONY : src/parsing/BackGroundJob.c.i
+
+src/parsing/BackGroundJob.s: src/parsing/BackGroundJob.c.s
+
+.PHONY : src/parsing/BackGroundJob.s
+
+# target to generate assembly for a file
+src/parsing/BackGroundJob.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s
+.PHONY : src/parsing/BackGroundJob.c.s
+
+src/parsing/ForeGroundJob.o: src/parsing/ForeGroundJob.c.o
+
+.PHONY : src/parsing/ForeGroundJob.o
+
+# target to build an object file
+src/parsing/ForeGroundJob.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
+.PHONY : src/parsing/ForeGroundJob.c.o
+
+src/parsing/ForeGroundJob.i: src/parsing/ForeGroundJob.c.i
+
+.PHONY : src/parsing/ForeGroundJob.i
+
+# target to preprocess a source file
+src/parsing/ForeGroundJob.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i
+.PHONY : src/parsing/ForeGroundJob.c.i
+
+src/parsing/ForeGroundJob.s: src/parsing/ForeGroundJob.c.s
+
+.PHONY : src/parsing/ForeGroundJob.s
+
+# target to generate assembly for a file
+src/parsing/ForeGroundJob.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s
+.PHONY : src/parsing/ForeGroundJob.c.s
+
+src/parsing/JobHandler.o: src/parsing/JobHandler.c.o
+
+.PHONY : src/parsing/JobHandler.o
+
+# target to build an object file
+src/parsing/JobHandler.c.o:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
+.PHONY : src/parsing/JobHandler.c.o
+
+src/parsing/JobHandler.i: src/parsing/JobHandler.c.i
+
+.PHONY : src/parsing/JobHandler.i
+
+# target to preprocess a source file
+src/parsing/JobHandler.c.i:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.i
+.PHONY : src/parsing/JobHandler.c.i
+
+src/parsing/JobHandler.s: src/parsing/JobHandler.c.s
+
+.PHONY : src/parsing/JobHandler.s
+
+# target to generate assembly for a file
+src/parsing/JobHandler.c.s:
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.s
+.PHONY : src/parsing/JobHandler.c.s
 
 src/parsing/lex.yy.o: src/parsing/lex.yy.c.o
 
@@ -354,6 +435,15 @@ help:
 	@echo "... src/execute.o"
 	@echo "... src/execute.i"
 	@echo "... src/execute.s"
+	@echo "... src/parsing/BackGroundJob.o"
+	@echo "... src/parsing/BackGroundJob.i"
+	@echo "... src/parsing/BackGroundJob.s"
+	@echo "... src/parsing/ForeGroundJob.o"
+	@echo "... src/parsing/ForeGroundJob.i"
+	@echo "... src/parsing/ForeGroundJob.s"
+	@echo "... src/parsing/JobHandler.o"
+	@echo "... src/parsing/JobHandler.i"
+	@echo "... src/parsing/JobHandler.s"
 	@echo "... src/parsing/lex.yy.o"
 	@echo "... src/parsing/lex.yy.i"
 	@echo "... src/parsing/lex.yy.s"

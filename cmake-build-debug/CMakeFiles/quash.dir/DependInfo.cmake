@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Zacula/Desktop/quash/src/command.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/command.c.o"
-  "/Users/Zacula/Desktop/quash/src/execute.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/execute.c.o"
-  "/Users/Zacula/Desktop/quash/src/parsing/lex.yy.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/lex.yy.c.o"
-  "/Users/Zacula/Desktop/quash/src/parsing/memory_pool.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/memory_pool.c.o"
-  "/Users/Zacula/Desktop/quash/src/parsing/parse.tab.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/parse.tab.c.o"
-  "/Users/Zacula/Desktop/quash/src/parsing/parsing_interface.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o"
-  "/Users/Zacula/Desktop/quash/src/quash.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/src/quash.c.o"
-  "/Users/Zacula/Desktop/quash/test-cases/test-setup/delayed_echo.c" "/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/command.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/command.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/execute.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/execute.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/JobHandler.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/lex.yy.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/lex.yy.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/memory_pool.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/memory_pool.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/parse.tab.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/parse.tab.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/parsing/parsing_interface.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/src/quash.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/src/quash.c.o"
+  "/Users/Zacula/Desktop/Project_01_Quash/test-cases/test-setup/delayed_echo.c" "/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

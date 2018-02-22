@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Zacula/Desktop/quash
+CMAKE_SOURCE_DIR = /Users/Zacula/Desktop/Project_01_Quash
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Zacula/Desktop/quash/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quash.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/quash.dir/flags.make
 
 CMakeFiles/quash.dir/src/parsing/lex.yy.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/parsing/lex.yy.c.o: ../src/parsing/lex.yy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/quash.dir/src/parsing/lex.yy.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/lex.yy.c.o   -c /Users/Zacula/Desktop/quash/src/parsing/lex.yy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/quash.dir/src/parsing/lex.yy.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/lex.yy.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/lex.yy.c
 
 CMakeFiles/quash.dir/src/parsing/lex.yy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/lex.yy.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/parsing/lex.yy.c > CMakeFiles/quash.dir/src/parsing/lex.yy.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/lex.yy.c > CMakeFiles/quash.dir/src/parsing/lex.yy.c.i
 
 CMakeFiles/quash.dir/src/parsing/lex.yy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/lex.yy.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/parsing/lex.yy.c -o CMakeFiles/quash.dir/src/parsing/lex.yy.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/lex.yy.c -o CMakeFiles/quash.dir/src/parsing/lex.yy.c.s
 
 CMakeFiles/quash.dir/src/parsing/lex.yy.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/quash.dir/src/parsing/lex.yy.c.o.provides.build: CMakeFiles/quash.dir
 
 CMakeFiles/quash.dir/src/parsing/memory_pool.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/parsing/memory_pool.c.o: ../src/parsing/memory_pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/quash.dir/src/parsing/memory_pool.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/memory_pool.c.o   -c /Users/Zacula/Desktop/quash/src/parsing/memory_pool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/quash.dir/src/parsing/memory_pool.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/memory_pool.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/memory_pool.c
 
 CMakeFiles/quash.dir/src/parsing/memory_pool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/memory_pool.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/parsing/memory_pool.c > CMakeFiles/quash.dir/src/parsing/memory_pool.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/memory_pool.c > CMakeFiles/quash.dir/src/parsing/memory_pool.c.i
 
 CMakeFiles/quash.dir/src/parsing/memory_pool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/memory_pool.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/parsing/memory_pool.c -o CMakeFiles/quash.dir/src/parsing/memory_pool.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/memory_pool.c -o CMakeFiles/quash.dir/src/parsing/memory_pool.c.s
 
 CMakeFiles/quash.dir/src/parsing/memory_pool.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/quash.dir/src/parsing/memory_pool.c.o.provides.build: CMakeFiles/quas
 
 CMakeFiles/quash.dir/src/parsing/parse.tab.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/parsing/parse.tab.c.o: ../src/parsing/parse.tab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/quash.dir/src/parsing/parse.tab.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/parse.tab.c.o   -c /Users/Zacula/Desktop/quash/src/parsing/parse.tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/quash.dir/src/parsing/parse.tab.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/parse.tab.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parse.tab.c
 
 CMakeFiles/quash.dir/src/parsing/parse.tab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/parse.tab.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/parsing/parse.tab.c > CMakeFiles/quash.dir/src/parsing/parse.tab.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parse.tab.c > CMakeFiles/quash.dir/src/parsing/parse.tab.c.i
 
 CMakeFiles/quash.dir/src/parsing/parse.tab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/parse.tab.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/parsing/parse.tab.c -o CMakeFiles/quash.dir/src/parsing/parse.tab.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parse.tab.c -o CMakeFiles/quash.dir/src/parsing/parse.tab.c.s
 
 CMakeFiles/quash.dir/src/parsing/parse.tab.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/quash.dir/src/parsing/parse.tab.c.o.provides.build: CMakeFiles/quash.
 
 CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o: ../src/parsing/parsing_interface.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o   -c /Users/Zacula/Desktop/quash/src/parsing/parsing_interface.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parsing_interface.c
 
 CMakeFiles/quash.dir/src/parsing/parsing_interface.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/parsing_interface.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/parsing/parsing_interface.c > CMakeFiles/quash.dir/src/parsing/parsing_interface.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parsing_interface.c > CMakeFiles/quash.dir/src/parsing/parsing_interface.c.i
 
 CMakeFiles/quash.dir/src/parsing/parsing_interface.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/parsing_interface.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/parsing/parsing_interface.c -o CMakeFiles/quash.dir/src/parsing/parsing_interface.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/parsing_interface.c -o CMakeFiles/quash.dir/src/parsing/parsing_interface.c.s
 
 CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/quash.dir/src/parsing/parsing_interface.c.o.provides.build: CMakeFile
 
 CMakeFiles/quash.dir/src/command.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/command.c.o: ../src/command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/quash.dir/src/command.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/command.c.o   -c /Users/Zacula/Desktop/quash/src/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/quash.dir/src/command.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/command.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/command.c
 
 CMakeFiles/quash.dir/src/command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/command.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/command.c > CMakeFiles/quash.dir/src/command.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/command.c > CMakeFiles/quash.dir/src/command.c.i
 
 CMakeFiles/quash.dir/src/command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/command.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/command.c -o CMakeFiles/quash.dir/src/command.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/command.c -o CMakeFiles/quash.dir/src/command.c.s
 
 CMakeFiles/quash.dir/src/command.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/quash.dir/src/command.c.o.provides.build: CMakeFiles/quash.dir/src/co
 
 CMakeFiles/quash.dir/src/execute.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/execute.c.o: ../src/execute.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/quash.dir/src/execute.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/execute.c.o   -c /Users/Zacula/Desktop/quash/src/execute.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/quash.dir/src/execute.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/execute.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/execute.c
 
 CMakeFiles/quash.dir/src/execute.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/execute.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/execute.c > CMakeFiles/quash.dir/src/execute.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/execute.c > CMakeFiles/quash.dir/src/execute.c.i
 
 CMakeFiles/quash.dir/src/execute.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/execute.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/execute.c -o CMakeFiles/quash.dir/src/execute.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/execute.c -o CMakeFiles/quash.dir/src/execute.c.s
 
 CMakeFiles/quash.dir/src/execute.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/quash.dir/src/execute.c.o.provides.build: CMakeFiles/quash.dir/src/ex
 
 CMakeFiles/quash.dir/src/quash.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/src/quash.c.o: ../src/quash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/quash.dir/src/quash.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/quash.c.o   -c /Users/Zacula/Desktop/quash/src/quash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/quash.dir/src/quash.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/quash.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/quash.c
 
 CMakeFiles/quash.dir/src/quash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/quash.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/src/quash.c > CMakeFiles/quash.dir/src/quash.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/quash.c > CMakeFiles/quash.dir/src/quash.c.i
 
 CMakeFiles/quash.dir/src/quash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/quash.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/src/quash.c -o CMakeFiles/quash.dir/src/quash.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/quash.c -o CMakeFiles/quash.dir/src/quash.c.s
 
 CMakeFiles/quash.dir/src/quash.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/quash.dir/src/quash.c.o.provides.build: CMakeFiles/quash.dir/src/quas
 
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o: CMakeFiles/quash.dir/flags.make
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o: ../test-cases/test-setup/delayed_echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o   -c /Users/Zacula/Desktop/quash/test-cases/test-setup/delayed_echo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/test-cases/test-setup/delayed_echo.c
 
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/quash/test-cases/test-setup/delayed_echo.c > CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/test-cases/test-setup/delayed_echo.c > CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.i
 
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/quash/test-cases/test-setup/delayed_echo.c -o CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/test-cases/test-setup/delayed_echo.c -o CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.s
 
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.requires:
 
@@ -249,6 +249,78 @@ CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.provides: CMakeFiles
 CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.provides.build: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o
 
 
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.o: ../src/parsing/JobHandler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/quash.dir/src/parsing/JobHandler.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/JobHandler.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c
+
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/JobHandler.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c > CMakeFiles/quash.dir/src/parsing/JobHandler.c.i
+
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/JobHandler.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/JobHandler.c -o CMakeFiles/quash.dir/src/parsing/JobHandler.c.s
+
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires:
+
+.PHONY : CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
+
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides
+
+CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
+
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o: ../src/parsing/BackGroundJob.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c > CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.i
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/BackGroundJob.c -o CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.s
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires:
+
+.PHONY : CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides
+
+CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
+
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o: CMakeFiles/quash.dir/flags.make
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o: ../src/parsing/ForeGroundJob.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o   -c /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c > CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.i
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Zacula/Desktop/Project_01_Quash/src/parsing/ForeGroundJob.c -o CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.s
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires:
+
+.PHONY : CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
+	$(MAKE) -f CMakeFiles/quash.dir/build.make CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides.build
+.PHONY : CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides
+
+CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.provides.build: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
+
+
 # Object files for target quash
 quash_OBJECTS = \
 "CMakeFiles/quash.dir/src/parsing/lex.yy.c.o" \
@@ -258,7 +330,10 @@ quash_OBJECTS = \
 "CMakeFiles/quash.dir/src/command.c.o" \
 "CMakeFiles/quash.dir/src/execute.c.o" \
 "CMakeFiles/quash.dir/src/quash.c.o" \
-"CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o"
+"CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o" \
+"CMakeFiles/quash.dir/src/parsing/JobHandler.c.o" \
+"CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o" \
+"CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o"
 
 # External object files for target quash
 quash_EXTERNAL_OBJECTS =
@@ -271,9 +346,12 @@ quash: CMakeFiles/quash.dir/src/command.c.o
 quash: CMakeFiles/quash.dir/src/execute.c.o
 quash: CMakeFiles/quash.dir/src/quash.c.o
 quash: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o
+quash: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o
+quash: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o
+quash: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o
 quash: CMakeFiles/quash.dir/build.make
 quash: CMakeFiles/quash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable quash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable quash"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +367,9 @@ CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/command.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/execute.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/quash.c.o.requires
 CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/test-cases/test-setup/delayed_echo.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/JobHandler.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/BackGroundJob.c.o.requires
+CMakeFiles/quash.dir/requires: CMakeFiles/quash.dir/src/parsing/ForeGroundJob.c.o.requires
 
 .PHONY : CMakeFiles/quash.dir/requires
 
@@ -297,6 +378,6 @@ CMakeFiles/quash.dir/clean:
 .PHONY : CMakeFiles/quash.dir/clean
 
 CMakeFiles/quash.dir/depend:
-	cd /Users/Zacula/Desktop/quash/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Zacula/Desktop/quash /Users/Zacula/Desktop/quash /Users/Zacula/Desktop/quash/cmake-build-debug /Users/Zacula/Desktop/quash/cmake-build-debug /Users/Zacula/Desktop/quash/cmake-build-debug/CMakeFiles/quash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Zacula/Desktop/Project_01_Quash /Users/Zacula/Desktop/Project_01_Quash /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug /Users/Zacula/Desktop/Project_01_Quash/cmake-build-debug/CMakeFiles/quash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/quash.dir/depend
 
