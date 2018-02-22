@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6916fb-09cc-42de-bb3d-ecc298ea6e16" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/execute.c" afterPath="$PROJECT_DIR$/src/execute.c" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="execute.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="execute.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/execute.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="251" column="20" lean-forward="false" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="20" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#246#264#0" expanded="true" />
               </folding>
@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -156,8 +156,8 @@
         <option value="$PROJECT_DIR$/valgrind_expected.txt" />
         <option value="$PROJECT_DIR$/.valgrind_expected.txt" />
         <option value="$PROJECT_DIR$/src/ForeGroundJob.h" />
-        <option value="$PROJECT_DIR$/src/execute.c" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/src/execute.c" />
       </list>
     </option>
   </component>
@@ -436,12 +436,12 @@
       <option name="presentableId" value="Default" />
       <updated>1519155102667</updated>
       <workItem from="1519155104540" duration="9583000" />
-      <workItem from="1519266537768" duration="3654000" />
+      <workItem from="1519266537768" duration="3794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13237000" />
+    <option name="totallyTimeSpent" value="13377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-490" width="1280" height="1053" extended-state="0" />
@@ -480,7 +480,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/execute.c</url>
-          <line>18</line>
+          <line>20</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="6" />
@@ -692,21 +692,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/execute.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="251" column="20" lean-forward="false" selection-start-line="251" selection-start-column="16" selection-end-line="251" selection-end-column="20" />
-          <folding>
-            <element signature="e#246#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="170" lean-forward="false" selection-start-line="16" selection-start-column="170" selection-end-line="16" selection-end-column="170" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/execute.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#246#264#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
