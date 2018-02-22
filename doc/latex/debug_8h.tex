@@ -1,53 +1,52 @@
-\hypertarget{debug_8h}{}\section{src/debug.h File Reference}
-\label{debug_8h}\index{src/debug.\+h@{src/debug.\+h}}
+\hypertarget{debug_8h}{\section{src/debug.h File Reference}
+\label{debug_8h}\index{src/debug.\-h@{src/debug.\-h}}
+}
 
 
 This file holds useful macros for debugging purposes.  
 
 
-{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
 \subsection*{Macros}
 \begin{DoxyCompactItemize}
 \item 
-\#define \hyperlink{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}{P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG}(fmt, ...)
-\begin{DoxyCompactList}\small\item\em Print statement that only triggers if D\+E\+B\+UG is defined. \end{DoxyCompactList}\item 
-\#define \hyperlink{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}{I\+F\+D\+E\+B\+UG}(x)
-\begin{DoxyCompactList}\small\item\em Insert code that is only compiled if D\+E\+B\+UG is defined. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\#define \hyperlink{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}{P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G}(fmt,...)
+\begin{DoxyCompactList}\small\item\em Print statement that only triggers if D\-E\-B\-U\-G is defined. \end{DoxyCompactList}\item 
+\#define \hyperlink{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}{I\-F\-D\-E\-B\-U\-G}(x)
+\begin{DoxyCompactList}\small\item\em Insert code that is only compiled if D\-E\-B\-U\-G is defined. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
 This file holds useful macros for debugging purposes. 
 
-
-
 \subsection{Macro Definition Documentation}
-\index{debug.\+h@{debug.\+h}!I\+F\+D\+E\+B\+UG@{I\+F\+D\+E\+B\+UG}}
-\index{I\+F\+D\+E\+B\+UG@{I\+F\+D\+E\+B\+UG}!debug.\+h@{debug.\+h}}
-\subsubsection[{\texorpdfstring{I\+F\+D\+E\+B\+UG}{IFDEBUG}}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\+F\+D\+E\+B\+UG(
+\hypertarget{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}{\index{debug.\-h@{debug.\-h}!I\-F\-D\-E\-B\-U\-G@{I\-F\-D\-E\-B\-U\-G}}
+\index{I\-F\-D\-E\-B\-U\-G@{I\-F\-D\-E\-B\-U\-G}!debug.h@{debug.\-h}}
+\subsubsection[{I\-F\-D\-E\-B\-U\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-F\-D\-E\-B\-U\-G(
 \begin{DoxyParamCaption}
 \item[{}]{x}
 \end{DoxyParamCaption}
-)}\hypertarget{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}{}\label{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}
+)}}\label{debug_8h_abcf0d5a50dd7e407cd464c1afbd27554}
 
 
-Insert code that is only compiled if D\+E\+B\+UG is defined. 
+Insert code that is only compiled if D\-E\-B\-U\-G is defined. 
 
 
 \begin{DoxyParams}{Parameters}
 {\em x} & Code to insert \\
 \hline
 \end{DoxyParams}
-\index{debug.\+h@{debug.\+h}!P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG@{P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG}}
-\index{P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG@{P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG}!debug.\+h@{debug.\+h}}
-\subsubsection[{\texorpdfstring{P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG}{PRINT\_DEBUG}}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\+R\+I\+N\+T\+\_\+\+D\+E\+B\+UG(
+\hypertarget{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}{\index{debug.\-h@{debug.\-h}!P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G@{P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G}}
+\index{P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G@{P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G}!debug.h@{debug.\-h}}
+\subsubsection[{P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define P\-R\-I\-N\-T\-\_\-\-D\-E\-B\-U\-G(
 \begin{DoxyParamCaption}
 \item[{}]{fmt, }
 \item[{}]{...}
 \end{DoxyParamCaption}
-)}\hypertarget{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}{}\label{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}
+)}}\label{debug_8h_a035cb3bcb57e0682ea2b55c645e5f9f2}
 
 
-Print statement that only triggers if D\+E\+B\+UG is defined. 
+Print statement that only triggers if D\-E\-B\-U\-G is defined. 
 
 
 \begin{DoxyParams}{Parameters}

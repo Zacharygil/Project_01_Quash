@@ -1,0 +1,22 @@
+==63966== Memcheck, a memory error detector
+==63966== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==63966== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==63966== Command: /home/z402g906/EECS678/Project_01_Quash/quash
+==63966== 
+quash: src/BackGroundJob.c:7: is_empty_background_job_queue_t: Assertion `deq->data != ((void *)0)' failed.
+==63966== 
+==63966== HEAP SUMMARY:
+==63966==     in use at exit: 17,730 bytes in 5 blocks
+==63966==   total heap usage: 9 allocs, 4 frees, 18,319 bytes allocated
+==63966== 
+==63966== LEAK SUMMARY:
+==63966==    definitely lost: 0 bytes in 0 blocks
+==63966==    indirectly lost: 0 bytes in 0 blocks
+==63966==      possibly lost: 0 bytes in 0 blocks
+==63966==    still reachable: 17,730 bytes in 5 blocks
+==63966==         suppressed: 0 bytes in 0 blocks
+==63966== Reachable blocks (those to which a pointer was found) are not shown.
+==63966== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==63966== 
+==63966== For counts of detected and suppressed errors, rerun with: -v
+==63966== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 2 from 2)

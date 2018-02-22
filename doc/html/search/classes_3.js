@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['killcommand',['KillCommand',['../structKillCommand.html',1,'']]]
+  ['genericcommand',['GenericCommand',['../structGenericCommand.html',1,'']]]
 ];

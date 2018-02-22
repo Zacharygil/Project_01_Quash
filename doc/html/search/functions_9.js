@@ -6,9 +6,9 @@ var searchData=
   ['peek_5ffront_5fexample',['peek_front_Example',['../deque_8h.html#ab65f67206d60592e7a12d4ed1c833cc1',1,'deque.h']]],
   ['pop_5fback_5fexample',['pop_back_Example',['../deque_8h.html#aa3a49a1ed1aac021037fe94820ed8c95',1,'deque.h']]],
   ['pop_5ffront_5fexample',['pop_front_Example',['../deque_8h.html#a9fe851644b8743ed3e189e2b7872641a',1,'deque.h']]],
-  ['print_5fjob',['print_job',['../execute_8c.html#a0b272e2a39868632c7cdf1f66abca817',1,'print_job(int job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#a0b272e2a39868632c7cdf1f66abca817',1,'print_job(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
-  ['print_5fjob_5fbg_5fcomplete',['print_job_bg_complete',['../execute_8c.html#a9fbab67c786201a8f3266661bd0917c5',1,'print_job_bg_complete(int job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#a9fbab67c786201a8f3266661bd0917c5',1,'print_job_bg_complete(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
-  ['print_5fjob_5fbg_5fstart',['print_job_bg_start',['../execute_8c.html#ae6dddf9eadf2166be12825dd40dbd644',1,'print_job_bg_start(int job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#ae6dddf9eadf2166be12825dd40dbd644',1,'print_job_bg_start(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
+  ['print_5fjob',['print_job',['../execute_8c.html#ab223b7a253c64a943480e5c13b6fd5d6',1,'print_job(job_id_t job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#a0b272e2a39868632c7cdf1f66abca817',1,'print_job(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
+  ['print_5fjob_5fbg_5fcomplete',['print_job_bg_complete',['../execute_8c.html#a718a42df013ff441be04ad7496b862da',1,'print_job_bg_complete(job_id_t job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#a9fbab67c786201a8f3266661bd0917c5',1,'print_job_bg_complete(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
+  ['print_5fjob_5fbg_5fstart',['print_job_bg_start',['../execute_8c.html#ada561111256b4691b164c1434f3af280',1,'print_job_bg_start(job_id_t job_id, pid_t pid, const char *cmd):&#160;execute.c'],['../execute_8h.html#ae6dddf9eadf2166be12825dd40dbd644',1,'print_job_bg_start(int job_id, pid_t pid, const char *cmd):&#160;execute.c']]],
   ['push_5fback_5fexample',['push_back_Example',['../deque_8h.html#a63a0566b60e881121b5ba029a25cb9ae',1,'deque.h']]],
   ['push_5ffront_5fexample',['push_front_Example',['../deque_8h.html#a7ef7f1f62eb4aa5565c04013ac376433',1,'deque.h']]]
 ];

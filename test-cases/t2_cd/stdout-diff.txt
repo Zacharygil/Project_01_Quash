@@ -1,0 +1,6 @@
+0a1,5
+> dir3-1
+> dir3-2
+> valgrind_expected.txt
+> /home/z402g906/EECS678/Project_01_Quash/test-cases/t2_cd/sandbox/dir3
+> /home/z402g906/EECS678/Project_01_Quash/test-cases/t2_cd/sandbox/dir3

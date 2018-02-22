@@ -1,25 +1,26 @@
-\hypertarget{quash_8c}{}\section{src/quash.c File Reference}
-\label{quash_8c}\index{src/quash.\+c@{src/quash.\+c}}
-{\ttfamily \#include \char`\"{}quash.\+h\char`\"{}}\\*
-{\ttfamily \#include $<$limits.\+h$>$}\\*
-{\ttfamily \#include $<$stdbool.\+h$>$}\\*
-{\ttfamily \#include $<$string.\+h$>$}\\*
-{\ttfamily \#include $<$unistd.\+h$>$}\\*
-{\ttfamily \#include $<$stdio.\+h$>$}\\*
-{\ttfamily \#include \char`\"{}command.\+h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}execute.\+h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}parsing\+\_\+interface.\+h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}memory\+\_\+pool.\+h\char`\"{}}\\*
+\hypertarget{quash_8c}{\section{src/quash.c File Reference}
+\label{quash_8c}\index{src/quash.\-c@{src/quash.\-c}}
+}
+{\ttfamily \#include \char`\"{}quash.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$limits.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}command.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}execute.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}parsing\-\_\-interface.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}memory\-\_\-pool.\-h\char`\"{}}\\*
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
-bool \hyperlink{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{is\+\_\+running} ()
+bool \hyperlink{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{is\-\_\-running} ()
 \begin{DoxyCompactList}\small\item\em Query if quash should accept more input or not. \end{DoxyCompactList}\item 
-char $\ast$ \hyperlink{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{get\+\_\+command\+\_\+string} ()
+char $\ast$ \hyperlink{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{get\-\_\-command\-\_\-string} ()
 \begin{DoxyCompactList}\small\item\em Get a deep copy of the current command string. \end{DoxyCompactList}\item 
-bool \hyperlink{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}{is\+\_\+tty} ()
-\begin{DoxyCompactList}\small\item\em Check if Quash is receiving input from the command line (T\+TY) \end{DoxyCompactList}\item 
-void \hyperlink{quash_8c_a4d364efdccd1dec2290413c6ae28959c}{end\+\_\+main\+\_\+loop} ()\hypertarget{quash_8c_a4d364efdccd1dec2290413c6ae28959c}{}\label{quash_8c_a4d364efdccd1dec2290413c6ae28959c}
+bool \hyperlink{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}{is\-\_\-tty} ()
+\begin{DoxyCompactList}\small\item\em Check if Quash is receiving input from the command line (T\-T\-Y) \end{DoxyCompactList}\item 
+\hypertarget{quash_8c_a4d364efdccd1dec2290413c6ae28959c}{void \hyperlink{quash_8c_a4d364efdccd1dec2290413c6ae28959c}{end\-\_\-main\-\_\-loop} ()}\label{quash_8c_a4d364efdccd1dec2290413c6ae28959c}
 
 \begin{DoxyCompactList}\small\item\em Causes the execution loop to end. \end{DoxyCompactList}\item 
 int \hyperlink{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
@@ -27,16 +28,16 @@ int \hyperlink{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char
 
 
 \subsection{Detailed Description}
-Quash\textquotesingle{}s main file 
+Quash's main file 
 
 \subsection{Function Documentation}
-\index{quash.\+c@{quash.\+c}!get\+\_\+command\+\_\+string@{get\+\_\+command\+\_\+string}}
-\index{get\+\_\+command\+\_\+string@{get\+\_\+command\+\_\+string}!quash.\+c@{quash.\+c}}
-\subsubsection[{\texorpdfstring{get\+\_\+command\+\_\+string()}{get\_command\_string()}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ get\+\_\+command\+\_\+string (
+\hypertarget{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{\index{quash.\-c@{quash.\-c}!get\-\_\-command\-\_\-string@{get\-\_\-command\-\_\-string}}
+\index{get\-\_\-command\-\_\-string@{get\-\_\-command\-\_\-string}!quash.c@{quash.\-c}}
+\subsubsection[{get\-\_\-command\-\_\-string}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ get\-\_\-command\-\_\-string (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}\hypertarget{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{}\label{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}
+)}}\label{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}
 
 
 Get a deep copy of the current command string. 
@@ -47,13 +48,13 @@ The free function must be called on the result eventually
 \begin{DoxyReturn}{Returns}
 A copy of the command string 
 \end{DoxyReturn}
-\index{quash.\+c@{quash.\+c}!is\+\_\+running@{is\+\_\+running}}
-\index{is\+\_\+running@{is\+\_\+running}!quash.\+c@{quash.\+c}}
-\subsubsection[{\texorpdfstring{is\+\_\+running()}{is\_running()}}]{\setlength{\rightskip}{0pt plus 5cm}bool is\+\_\+running (
+\hypertarget{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{\index{quash.\-c@{quash.\-c}!is\-\_\-running@{is\-\_\-running}}
+\index{is\-\_\-running@{is\-\_\-running}!quash.c@{quash.\-c}}
+\subsubsection[{is\-\_\-running}]{\setlength{\rightskip}{0pt plus 5cm}bool is\-\_\-running (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}\hypertarget{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{}\label{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}
+)}}\label{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}
 
 
 Query if quash should accept more input or not. 
@@ -61,28 +62,28 @@ Query if quash should accept more input or not.
 \begin{DoxyReturn}{Returns}
 True if Quash should accept more input and false otherwise 
 \end{DoxyReturn}
-\index{quash.\+c@{quash.\+c}!is\+\_\+tty@{is\+\_\+tty}}
-\index{is\+\_\+tty@{is\+\_\+tty}!quash.\+c@{quash.\+c}}
-\subsubsection[{\texorpdfstring{is\+\_\+tty()}{is\_tty()}}]{\setlength{\rightskip}{0pt plus 5cm}bool is\+\_\+tty (
+\hypertarget{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}{\index{quash.\-c@{quash.\-c}!is\-\_\-tty@{is\-\_\-tty}}
+\index{is\-\_\-tty@{is\-\_\-tty}!quash.c@{quash.\-c}}
+\subsubsection[{is\-\_\-tty}]{\setlength{\rightskip}{0pt plus 5cm}bool is\-\_\-tty (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}\hypertarget{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}{}\label{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}
+)}}\label{quash_8c_a52e7329f9f0f1beccbcc84378c1cb748}
 
 
-Check if Quash is receiving input from the command line (T\+TY) 
+Check if Quash is receiving input from the command line (T\-T\-Y) 
 
 \begin{DoxyReturn}{Returns}
-True if stdin is a T\+TY false if stdin is not a T\+TY 
+True if stdin is a T\-T\-Y false if stdin is not a T\-T\-Y 
 \end{DoxyReturn}
-\index{quash.\+c@{quash.\+c}!main@{main}}
-\index{main@{main}!quash.\+c@{quash.\+c}}
-\subsubsection[{\texorpdfstring{main(int argc, char $\ast$$\ast$argv)}{main(int argc, char **argv)}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\hypertarget{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{quash.\-c@{quash.\-c}!main@{main}}
+\index{main@{main}!quash.c@{quash.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
 \begin{DoxyParamCaption}
 \item[{int}]{argc, }
 \item[{char $\ast$$\ast$}]{argv}
 \end{DoxyParamCaption}
-)}\hypertarget{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}{}\label{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+)}}\label{quash_8c_a3c04138a5bfe5d72780bb7e82a18e627}
 
 
 Quash entry point. 

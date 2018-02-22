@@ -1,17 +1,19 @@
-\begin{quote}
-\section*{E\+E\+CS 678 -\/ Project 1 -\/ Quash Shell}
+\begin{quotation}
+\section*{E\-E\-C\-S 678 -\/ Project 1 -\/ Quash Shell}
 
-\end{quote}
+
+
+\end{quotation}
 
 
 \subsection*{Introduction}
 
-In this project, you will complete the Quite a Shell (quash) program using the U\+N\+IX system calls. You may work in groups of 2. The purpose of this project is as follows\+:
+In this project, you will complete the Quite a Shell (quash) program using the U\-N\-I\-X system calls. You may work in groups of 2. The purpose of this project is as follows\-:
 
 
 \begin{DoxyItemize}
-\item Getting familiar with the Operating System (U\+N\+IX) interface.
-\item Exercising U\+N\+IX system calls.
+\item Getting familiar with the Operating System (U\-N\-I\-X) interface.
+\item Exercising U\-N\-I\-X system calls.
 \item Understanding the concept of a process from the user point of view.
 \end{DoxyItemize}
 
@@ -19,249 +21,154 @@ A skeleton has been provided, but it lacks most of the core functionality one wo
 
 \subsection*{Installation}
 
-To build Quash use\+: \begin{quote}
-{\ttfamily make} \end{quote}
+To build Quash use\-: \begin{quotation}
+{\ttfamily make}
+
+\end{quotation}
 
 
-To generate this documentation in H\+T\+ML and La\+TeX use\+: \begin{quote}
-{\ttfamily make doc} \end{quote}
+To generate this documentation in H\-T\-M\-L and La\-Te\-X use\-: \begin{quotation}
+{\ttfamily make doc}
+
+\end{quotation}
 
 
-To clean quash use\+: \begin{quote}
-{\ttfamily make clean} \end{quote}
+To clean quash use\-: \begin{quotation}
+{\ttfamily make clean}
+
+\end{quotation}
 
 
 \subsection*{Usage}
 
-To run Quash use\+: \begin{quote}
-{\ttfamily ./quash} \end{quote}
-or \begin{quote}
-{\ttfamily make test} \end{quote}
+To run Quash use\-: \begin{quotation}
+{\ttfamily ./quash}
+
+\end{quotation}
+or \begin{quotation}
+{\ttfamily make test}
+
+\end{quotation}
 
 
 \subsection*{Features}
 
-{\itshape {\bfseries The main file you will modify is \hyperlink{execute_8c}{src/execute.\+c}. You may not use or modify files in the src/parsing directory, with the notable exception of the \hyperlink{parsing__interface_8h_a659361d40550d9776b6ea7fa69a836ce}{destroy\+\_\+parser()} function in src/parsing/parse\+\_\+interface.\+c if necessary. Your output should match our example result files exactly.}}
+{\itshape {\bfseries The main file you will modify is \hyperlink{execute_8c}{src/execute.\-c}. You may not use or modify files in the src/parsing directory, with the notable exception of the \hyperlink{parsing__interface_8h_a659361d40550d9776b6ea7fa69a836ce}{destroy\-\_\-parser()} function in src/parsing/parse\-\_\-interface.\-c if necessary. Your output should match our example result files exactly.}}
 
-The following features should be implemented in Quash\+:
+The following features should be implemented in Quash\-:
 
 
 \begin{DoxyItemize}
 \item Quash should be able to run executables (the basic function of a shell) with command line parameters
-\item If the executable is not specified in the absolute or relative path format (starting with sequences of ‘/’, \textquotesingle{}./\textquotesingle{}, or \textquotesingle{}../\textquotesingle{}), quash should search the directories in the environment variable P\+A\+TH (see below). If no executable file is found, quash should print an error message to standard error. Quash should allow both foreground and background executions. Character ‘\&’ is used to indicate background execution. Commands without ‘\&’ are assumed to run in foreground.
+\item If the executable is not specified in the absolute or relative path format (starting with sequences of ‘/’, './', or '../'), quash should search the directories in the environment variable P\-A\-T\-H (see below). If no executable file is found, quash should print an error message to standard error. Quash should allow both foreground and background executions. Character ‘\&’ is used to indicate background execution. Commands without ‘\&’ are assumed to run in foreground.
 \begin{DoxyItemize}
-\item When a command is run in the background, quash should print\+: \char`\"{}\+Background
-      job started\+: \mbox{[}\+J\+O\+B\+I\+D\mbox{]}    P\+I\+D    C\+O\+M\+M\+A\+N\+D\char`\"{}
-\item When a background command finishes, quash should print\+: \char`\"{}\+Completed\+:
-      \mbox{[}\+J\+O\+B\+I\+D\mbox{]}    P\+I\+D    C\+O\+M\+M\+A\+N\+D\char`\"{}
+\item When a command is run in the background, quash should print\-: \char`\"{}\-Background
+      job started\-: \mbox{[}\-J\-O\-B\-I\-D\mbox{]}    P\-I\-D    C\-O\-M\-M\-A\-N\-D\char`\"{}
+\item When a background command finishes, quash should print\-: \char`\"{}\-Completed\-:
+      \mbox{[}\-J\-O\-B\-I\-D\mbox{]}    P\-I\-D    C\-O\-M\-M\-A\-N\-D\char`\"{}
 \end{DoxyItemize}
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ program1 &
-2 Background job started: [1]    2342    program1 &
-3 [QUASH]$ ls
-4 Documents Downloads
-5 Completed: [1]    2342    program1 &
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ program1 \& Background job started\-: \mbox{[}1\mbox{]} 2342 program1 \& \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ls Documents Downloads Completed\-: \mbox{[}1\mbox{]} 2342 program1 \& ```
 
 
 \begin{DoxyItemize}
-\item Quash should implement I/O redirection. The {\ttfamily $<$} character is used to redirect the standard input from a file. The {\ttfamily $>$} character is used to redirect the standard output to a file while truncating the file. The {\ttfamily $>$$>$} string is used to redirect the standard output to a file while appending the output to the end of the file.
+\item Quash should implement I/\-O redirection. The {\ttfamily $<$} character is used to redirect the standard input from a file. The {\ttfamily $>$} character is used to redirect the standard output to a file while truncating the file. The {\ttfamily $>$$>$} string is used to redirect the standard output to a file while appending the output to the end of the file.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ echo Hello Quash! > a.txt  # Write "Hello Quash!\(\backslash\)n" to a file
-2 [QUASH]$ cat a.txt
-3 Hello Quash!
-4 [QUASH]$ echo Hey Quash! > a.txt  # Truncate the previous contents of a.txt and write "Hey Quash!\(\backslash\)n" to the
-       file
-5 [QUASH]$ cat a.txt          # Print file contents. If we didn't actually truncate we would see "Hey
-       Quash!h!\(\backslash\)n" as the output of this command.
-6 Hey Quash!
-7 [QUASH]$ cat < a.txt        # Make cat read from a.txt via standard in
-8 Hey Quash!
-9 [QUASH]$ cat < a.txt > b.txt  # Multiple redirect. Read from a.txt and write to b.txt.
-10 [QUASH]$ cat b.txt
-11 Hey Quash!
-12 [QUASH]$ cat a.txt >> b.txt  # Append output of a.txt to b.txt
-13 [QUASH]$ cat b.txt
-14 Hey Quash!
-15 Hey Quash!
-16 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo Hello Quash! $>$ a.\-txt \# Write \char`\"{}\-Hello Quash!\textbackslash{}n\char`\"{} to a file \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat a.\-txt Hello Quash! \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo Hey Quash! $>$ a.\-txt \# Truncate the previous contents of a.\-txt and write \char`\"{}\-Hey Quash!\textbackslash{}n\char`\"{} to the file \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat a.\-txt \# Print file contents. If we didn't actually truncate we would see \char`\"{}\-Hey Quash!h!\textbackslash{}n\char`\"{} as the output of this command. Hey Quash! \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat $<$ a.\-txt \# Make cat read from a.\-txt via standard in Hey Quash! \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat $<$ a.\-txt $>$ b.\-txt \# Multiple redirect. Read from a.\-txt and write to b.\-txt. \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat b.\-txt Hey Quash! \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat a.\-txt $>$$>$ b.\-txt \# Append output of a.\-txt to b.\-txt \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat b.\-txt Hey Quash! Hey Quash! \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
 \item Quash should support pipes {\ttfamily $\vert$}.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ cat src/quash.c | grep running
-2 // Check if loop is running
-3 bool is\_running() \{
-4   return state.running;
-5   state.running = false;
-6   while (is\_running()) \{
-7 [QUASH]$ cat src/quash.c | grep running | grep return
-8   return state.running;
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat \hyperlink{quash_8c}{src/quash.\-c} $\vert$ grep running // Check if loop is running bool \hyperlink{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{is\-\_\-running()} \{ return state.\-running; state.\-running = false; while (\hyperlink{quash_8c_a61da580fc69a74f3ef17956ba5fd88a0}{is\-\_\-running()}) \{ \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cat \hyperlink{quash_8c}{src/quash.\-c} $\vert$ grep running $\vert$ grep return return state.\-running; ```
 
 \subsubsection*{Built-\/in Functions}
 
-All built-\/in commands should be implemented in quash itself. They cannot be external programs of any kind. Quash should support the following built-\/in functions\+:
+All built-\/in commands should be implemented in quash itself. They cannot be external programs of any kind. Quash should support the following built-\/in functions\-:
 
 
 \begin{DoxyItemize}
-\item {\ttfamily echo} -\/ Print a string given as an argument. The output format should be the same as bash (a string followed by new line \textquotesingle{}\textbackslash{}n\textquotesingle{})
+\item {\ttfamily echo} -\/ Print a string given as an argument. The output format should be the same as bash (a string followed by new line '\textbackslash{}n')
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ echo Hello world! 'How are you today?'
-2 Hello world! How are you today?
-3 [QUASH]$ echo $HOME/Development
-4 /home/jrobinson/Development
-5 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo Hello world! 'How are you today?' Hello world! How are you today? \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-H\-O\-M\-E/\-Development /home/jrobinson/\-Development \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
 \item export -\/ Sets the value of an environment variable. Quash should support reading from and writing to environment variables.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ export PATH=/usr/bin:/bin  # Set the PATH environment variable
-2 [QUASH]$ echo $PATH                 # Print the current value of PATH
-3 /usr/bin:/bin
-4 [QUASH]$ echo $HOME
-5 /home/jrobinson
-6 [QUASH]$ export PATH=$HOME  # Set the PATH environment variable to the value of HOME
-7 [QUASH]$ echo $PATH         # Print the current value of PATH
-8 /home/jrobinson
-9 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ export P\-A\-T\-H=/usr/bin\-:/bin \# Set the P\-A\-T\-H environment variable \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-A\-T\-H \# Print the current value of P\-A\-T\-H /usr/bin\-:/bin \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-H\-O\-M\-E /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ export P\-A\-T\-H=\$\-H\-O\-M\-E \# Set the P\-A\-T\-H environment variable to the value of H\-O\-M\-E \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-A\-T\-H \# Print the current value of P\-A\-T\-H /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
-\item {\ttfamily cd} -\/ Change current working directory. This updates both the actual working directory and the P\+WD environment variable.
+\item {\ttfamily cd} -\/ Change current working directory. This updates both the actual working directory and the P\-W\-D environment variable.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ echo $PWD
-2 /home/jrobinson
-3 [QUASH]$ cd ..              # Go up one directory
-4 [QUASH]$ echo $PWD
-5 /home
-6 [QUASH]$ cd $HOME           # Go to path in the HOME environment variable
-7 /home/jrobinson
-8 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-W\-D /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cd .. \# Go up one directory \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-W\-D /home \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ cd \$\-H\-O\-M\-E \# Go to path in the H\-O\-M\-E environment variable /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
-\item {\ttfamily pwd} -\/ Print the absolute path of the current working directory. Make sure you are printing out the actual working directory and not just the P\+WD environment variable.
+\item {\ttfamily pwd} -\/ Print the absolute path of the current working directory. Make sure you are printing out the actual working directory and not just the P\-W\-D environment variable.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ pwd                # Print the working directory
-2 /home/jrobinson
-3 [QUASH]$ echo $PWD          # Print the PWD environment variable
-4 /home/jrobinson
-5 [QUASH]$ export PWD=/usr    # Change the PWD environment variable
-6 [QUASH]$ pwd
-7 /home/jrobinson
-8 [QUASH]$ echo $PWD
-9 /usr
-10 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ pwd \# Print the working directory /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-W\-D \# Print the P\-W\-D environment variable /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ export P\-W\-D=/usr \# Change the P\-W\-D environment variable \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ pwd /home/jrobinson \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ echo \$\-P\-W\-D /usr \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
 \item {\ttfamily quit} \& {\ttfamily exit} -\/ Use these to terminate quash. These are already implemented for you.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [BASH]$ ./quash
-2 Welcome...
-3 [QUASH]$ exit
-4 [BASH]$ ./quash
-5 Welcome...
-6 [QUASH]$ quit
-7 [BASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}B\-A\-S\-H\mbox{]}\$ ./quash Welcome... \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ exit \mbox{[}B\-A\-S\-H\mbox{]}\$ ./quash Welcome... \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ quit \mbox{[}B\-A\-S\-H\mbox{]}\$ ```
 
 
 \begin{DoxyItemize}
-\item {\ttfamily jobs} -\/ Should print all of the currently running background processes in the format\+: \char`\"{}\mbox{[}\+J\+O\+B\+I\+D\mbox{]} P\+I\+D C\+O\+M\+M\+A\+N\+D\char`\"{} where J\+O\+B\+ID is a unique positive integer quash assigns to the job to identify it, P\+ID is the P\+ID of the child process used for the job, and C\+O\+M\+M\+A\+ND is the command used to invoke the job.
+\item {\ttfamily jobs} -\/ Should print all of the currently running background processes in the format\-: \char`\"{}\mbox{[}\-J\-O\-B\-I\-D\mbox{]} P\-I\-D C\-O\-M\-M\-A\-N\-D\char`\"{} where J\-O\-B\-I\-D is a unique positive integer quash assigns to the job to identify it, P\-I\-D is the P\-I\-D of the child process used for the job, and C\-O\-M\-M\-A\-N\-D is the command used to invoke the job.
 \end{DoxyItemize}
 
-
-\begin{DoxyCode}
-1 [QUASH]$ find -type f | grep '*.c' > out.txt &
-2 Background job started: [1]    2342    find / -type f | grep '*.c' > out.txt &
-3 [QUASH]$ sleep 15 &
-4 Background job started: [2]    2343    sleep 15 &
-5 [QUASH]$ jobs               # List currently running background jobs
-6 [1]    2342    find / -type f | grep '*.c' > out.txt &
-7 [2]    2343    sleep 15 &
-8 [QUASH]$
-\end{DoxyCode}
-
+```bash \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ find -\/type f $\vert$ grep '$\ast$.c' $>$ out.\-txt \& Background job started\-: \mbox{[}1\mbox{]} 2342 find / -\/type f $\vert$ grep '$\ast$.c' $>$ out.\-txt \& \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ sleep 15 \& Background job started\-: \mbox{[}2\mbox{]} 2343 sleep 15 \& \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ jobs \# List currently running background jobs \mbox{[}1\mbox{]} 2342 find / -\/type f $\vert$ grep '$\ast$.c' $>$ out.\-txt \& \mbox{[}2\mbox{]} 2343 sleep 15 \& \mbox{[}Q\-U\-A\-S\-H\mbox{]}\$ ```
 
 \subsection*{Useful Functions in the Quash Skeleton}
 
-The following are some funtions outside of \hyperlink{execute_8c}{src/execute.\+c} that you may want to use in your implementation\+:
+The following are some funtions outside of \hyperlink{execute_8c}{src/execute.\-c} that you may want to use in your implementation\-:
 
 
 \begin{DoxyItemize}
-\item {\itshape \hyperlink{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{get\+\_\+command\+\_\+string()}} 
-\item {\itshape \hyperlink{parsing__interface_8h_a659361d40550d9776b6ea7fa69a836ce}{destroy\+\_\+parser()}} 
-\item Things in \hyperlink{deque_8h}{src/deque.\+h}. Quash can make due with only implementations of this data structure (i.\+e. background jobs list, process id list). These are preprocessor macro definitions of the data structure and will expand and specialize to a type when used (similar to templates in c++). See example usage at the bottom of \hyperlink{deque_8h}{src/deque.\+h}. {\bfseries You don\textquotesingle{}t have to use this deque implementation if you would rather write your own list data structure.}
+\item {\itshape \hyperlink{quash_8c_ab43880685b2507434e4a84f2cb9d54d4}{get\-\_\-command\-\_\-string()}} 
+\item {\itshape \hyperlink{parsing__interface_8h_a659361d40550d9776b6ea7fa69a836ce}{destroy\-\_\-parser()}} 
+\item Things in \hyperlink{deque_8h}{src/deque.\-h}. Quash can make due with only implementations of this data structure (i.\-e. background jobs list, process id list). These are preprocessor macro definitions of the data structure and will expand and specialize to a type when used (similar to templates in c++). See example usage at the bottom of \hyperlink{deque_8h}{src/deque.\-h}. {\bfseries You don't have to use this deque implementation if you would rather write your own list data structure.}
 \begin{DoxyItemize}
-\item {\itshape \hyperlink{deque_8h_ad1734634a88d702478c08e26e39dc7b8}{I\+M\+P\+L\+E\+M\+E\+N\+T\+\_\+\+D\+E\+Q\+U\+E\+\_\+\+S\+T\+R\+U\+C\+T()}} -\/ Generates the double ended queue structure specialized to a type
-\item {\itshape \hyperlink{deque_8h_a20e8006e6767304fca356f057bc319f4}{P\+R\+O\+T\+O\+T\+Y\+P\+E\+\_\+\+D\+E\+Q\+U\+E()}} -\/ Generates the function prototypes for the functions that are generated by the {\itshape \hyperlink{deque_8h_a283e81072037376be2a17b25b1eb1601}{I\+M\+P\+L\+E\+M\+E\+N\+T\+\_\+\+D\+E\+Q\+U\+E()}} macro
-\item {\itshape \hyperlink{deque_8h_a283e81072037376be2a17b25b1eb1601}{I\+M\+P\+L\+E\+M\+E\+N\+T\+\_\+\+D\+E\+Q\+U\+E()}} -\/ Generates functions for use with the structure generated by {\itshape \hyperlink{deque_8h_ad1734634a88d702478c08e26e39dc7b8}{I\+M\+P\+L\+E\+M\+E\+N\+T\+\_\+\+D\+E\+Q\+U\+E\+\_\+\+S\+T\+R\+U\+C\+T()}}.
+\item {\itshape \hyperlink{deque_8h_a091cfc1289538b13036bcd36d12a3c01}{I\-M\-P\-L\-E\-M\-E\-N\-T\-\_\-\-D\-E\-Q\-U\-E\-\_\-\-S\-T\-R\-U\-C\-T()}} -\/ Generates the double ended queue structure specialized to a type
+\item {\itshape \hyperlink{deque_8h_af9dc10c0d5c775afe3053629e39f8c36}{P\-R\-O\-T\-O\-T\-Y\-P\-E\-\_\-\-D\-E\-Q\-U\-E()}} -\/ Generates the function prototypes for the functions that are generated by the {\itshape \hyperlink{deque_8h_a71fbe309fa88eb8d294b141f33d81233}{I\-M\-P\-L\-E\-M\-E\-N\-T\-\_\-\-D\-E\-Q\-U\-E()}} macro
+\item {\itshape \hyperlink{deque_8h_a71fbe309fa88eb8d294b141f33d81233}{I\-M\-P\-L\-E\-M\-E\-N\-T\-\_\-\-D\-E\-Q\-U\-E()}} -\/ Generates functions for use with the structure generated by {\itshape \hyperlink{deque_8h_a091cfc1289538b13036bcd36d12a3c01}{I\-M\-P\-L\-E\-M\-E\-N\-T\-\_\-\-D\-E\-Q\-U\-E\-\_\-\-S\-T\-R\-U\-C\-T()}}.
 \begin{DoxyItemize}
-\item N\+O\+TE\+: The following functions were generated with a call to {\itshape \hyperlink{deque_8h_a283e81072037376be2a17b25b1eb1601}{I\+M\+P\+L\+E\+M\+E\+N\+T\+\_\+\+D\+E\+Q\+U\+E(\+Example, Type)}}. Each function is named after the contents passed into the first argment of this macro (in this case {\itshape \hyperlink{structExample}{Example}}).
-\item {\itshape \hyperlink{deque_8h_ae0c6f52c89e2b087e19e3062186144da}{new\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a4a210705b6f22fe97b7033bb8854a4d6}{new\+\_\+destructable\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_ad9998ed1cadaff66c209e8b666185f70}{destroy\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_ab8ed3578aa5708a09831653caaa88b8a}{empty\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a43fb8662cb9960b573bc2368b27a915c}{is\+\_\+empty\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_ab751404fe5166cbc70dc8093b5167839}{length\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a0214e3a819ca3e1ec44d2f60d7c28f7b}{as\+\_\+array\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a582c40f070af171e4c98455d7d6fd305}{apply\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a7ef7f1f62eb4aa5565c04013ac376433}{push\+\_\+front\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a63a0566b60e881121b5ba029a25cb9ae}{push\+\_\+back\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a9fe851644b8743ed3e189e2b7872641a}{pop\+\_\+front\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_aa3a49a1ed1aac021037fe94820ed8c95}{pop\+\_\+back\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_ab65f67206d60592e7a12d4ed1c833cc1}{peek\+\_\+front\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a17ee221f1873599af8849e47af1d490c}{peek\+\_\+back\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a2f5457e6575eb38d59b7504770ca247e}{update\+\_\+front\+\_\+\+Example()}} 
-\item {\itshape \hyperlink{deque_8h_a0705ac52e0952213b9f1ce7f80bf977e}{update\+\_\+back\+\_\+\+Example()}} 
+\item N\-O\-T\-E\-: The following functions were generated with a call to {\itshape \hyperlink{deque_8h_a71fbe309fa88eb8d294b141f33d81233}{I\-M\-P\-L\-E\-M\-E\-N\-T\-\_\-\-D\-E\-Q\-U\-E(\-Example, Type)}}. Each function is named after the contents passed into the first argment of this macro (in this case {\itshape \hyperlink{structExample}{Example}}).
+\item {\itshape \hyperlink{deque_8h_ae0c6f52c89e2b087e19e3062186144da}{new\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a4a210705b6f22fe97b7033bb8854a4d6}{new\-\_\-destructable\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_ad9998ed1cadaff66c209e8b666185f70}{destroy\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_ab8ed3578aa5708a09831653caaa88b8a}{empty\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a43fb8662cb9960b573bc2368b27a915c}{is\-\_\-empty\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_ab751404fe5166cbc70dc8093b5167839}{length\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a0214e3a819ca3e1ec44d2f60d7c28f7b}{as\-\_\-array\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a582c40f070af171e4c98455d7d6fd305}{apply\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a7ef7f1f62eb4aa5565c04013ac376433}{push\-\_\-front\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a63a0566b60e881121b5ba029a25cb9ae}{push\-\_\-back\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a9fe851644b8743ed3e189e2b7872641a}{pop\-\_\-front\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_aa3a49a1ed1aac021037fe94820ed8c95}{pop\-\_\-back\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_ab65f67206d60592e7a12d4ed1c833cc1}{peek\-\_\-front\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a17ee221f1873599af8849e47af1d490c}{peek\-\_\-back\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a2f5457e6575eb38d59b7504770ca247e}{update\-\_\-front\-\_\-\-Example()}} 
+\item {\itshape \hyperlink{deque_8h_a0705ac52e0952213b9f1ce7f80bf977e}{update\-\_\-back\-\_\-\-Example()}} 
 \end{DoxyItemize}
 \end{DoxyItemize}
 \end{DoxyItemize}
 
 \subsection*{Useful System Calls and Library Functions}
 
-The following is a list and brief description of some system calls and library functions you may want to use and their respective man page entries. Note that this list may not be exhaustive, but be sure what ever library functions you use will run on the lab machines\+:
+The following is a list and brief description of some system calls and library functions you may want to use and their respective man page entries. Note that this list may not be exhaustive, but be sure what ever library functions you use will run on the lab machines\-:
 
 
 \begin{DoxyItemize}
@@ -273,8 +180,8 @@ The following is a list and brief description of some system calls and library f
 \item exit(3) -\/ Imediately terminate the current process with an exit status
 \item fork(2) -\/ Creates a new process by duplicating the calling process
 \item getenv(3) -\/ Reads an environment variable from the current process environment
-\item getwd(3) -\/ Gets the current working directory as a string (get\+\_\+current\+\_\+dir\+\_\+name(3) may be easier to use)
-\item get\+\_\+current\+\_\+dir\+\_\+name(3) -\/ Gets the current working directory and stores it in a newly allocated string
+\item getwd(3) -\/ Gets the current working directory as a string (get\-\_\-current\-\_\-dir\-\_\-name(3) may be easier to use)
+\item get\-\_\-current\-\_\-dir\-\_\-name(3) -\/ Gets the current working directory and stores it in a newly allocated string
 \item kill(2) -\/ Sends a signal to a process with a given pid
 \item open(2) -\/ Opens a file descriptor with an entry at the specified path in the file system
 \item pipe(2) -\/ Creates a unidirectional communication pathway between two processes
@@ -283,56 +190,49 @@ The following is a list and brief description of some system calls and library f
 \item waitpid(2) -\/ Waits or polls for a process with a given pid to finish
 \end{DoxyItemize}
 
-You may N\+OT use the system(3) function anywhere in your project
+You may N\-O\-T use the system(3) function anywhere in your project
 
 \subsection*{Project Hints and Comments}
 
-In Quash, a job is defined as a single command or a list of commands separated by pipes. For example the following are each one job\+:
+In Quash, a job is defined as a single command or a list of commands separated by pipes. For example the following are each one job\-:
 
-cat file.\+txt \# A job with a single process running under it
+cat file.\-txt \# A job with a single process running under it
 
 find $\vert$ grep $\ast$.qsh \# A job with two processes running under it
 
 A job may contain more than one process and should have a unique id for the current list of jobs in Quash, a knowledge of all of the pids for processes that run under it, and an expanded string depicting what was typed in on the command line to create that job. When passing the pid to the various print job functions you just need to give one pid associated with the job. The job id should also be assigned in a similar manner as bash assigns them. That is the job id of a new background job is one greater than the maximum job id in the background job list. Experiment with background jobs in Bash for more details on the id assignment.
 
-The structure of the functions in \hyperlink{execute_8c}{src/execute.\+c} will be explained in the following paragraphs.
+The structure of the functions in \hyperlink{execute_8c}{src/execute.\-c} will be explained in the following paragraphs.
 
-The entry level function for execution in quash is {\itshape \hyperlink{execute_8c_a4dab67459028f3b5a60d1a3695933f4b}{run\+\_\+script()}}. This function is responsible for calling {\itshape \hyperlink{execute_8c_acffe0d67f5dfe68ccf3765cf8ae29dab}{create\+\_\+process()}} on an array of {\itshape Command\+Holders}. After all of the processes have been created for a job, \hyperlink{execute_8c_a4dab67459028f3b5a60d1a3695933f4b}{run\+\_\+script()} should either wait on all processes inside a foreground job to complete or add it to the background job list without waiting if it is a background job.
+The entry level function for execution in quash is {\itshape \hyperlink{execute_8c_a4dab67459028f3b5a60d1a3695933f4b}{run\-\_\-script()}}. This function is responsible for calling {\itshape \hyperlink{execute_8c_a3ddd977c77859472a1d8baea3a5b7faf}{create\-\_\-process()}} on an array of {\itshape Command\-Holders}. After all of the processes have been created for a job, \hyperlink{execute_8c_a4dab67459028f3b5a60d1a3695933f4b}{run\-\_\-script()} should either wait on all processes inside a foreground job to complete or add it to the background job list without waiting if it is a background job.
 
-The {\itshape \hyperlink{execute_8c_acffe0d67f5dfe68ccf3765cf8ae29dab}{create\+\_\+process()}} function is intended to be the place where you fork processes, handle pipe creation, and file redirection. You should not call execvp(3) from this function. Instead you should call derivatives of the {\itshape example\+\_\+run\+\_\+command()} function. Also you can determine whether you should use the boolean variables at the top of this function to determine if pipes and redirects should be setup. It may be necessary to keep a global execution state structure so that different calls to create process can view important information created in previous invocations of \hyperlink{execute_8c_acffe0d67f5dfe68ccf3765cf8ae29dab}{create\+\_\+process()} (i.\+e. the file descriptors for open pipes of previous processes).
+The {\itshape \hyperlink{execute_8c_a3ddd977c77859472a1d8baea3a5b7faf}{create\-\_\-process()}} function is intended to be the place where you fork processes, handle pipe creation, and file redirection. You should not call execvp(3) from this function. Instead you should call derivatives of the {\itshape example\-\_\-run\-\_\-command()} function. Also you can determine whether you should use the boolean variables at the top of this function to determine if pipes and redirects should be setup. It may be necessary to keep a global execution state structure so that different calls to create process can view important information created in previous invocations of \hyperlink{execute_8c_a3ddd977c77859472a1d8baea3a5b7faf}{create\-\_\-process()} (i.\-e. the file descriptors for open pipes of previous processes).
 
-When implementing the run\+\_\+$<$command type$>$ functions in \hyperlink{execute_8c}{src/execute.\+c}, the command structures usually hold everything needed to pass to the corresponding function calls. For example, the {\itshape \hyperlink{structGenericCommand}{Generic\+Command}} structure contains an args field fully formatted and ready to pass into the argv argument of the {\itshape execvp(3)} library function. The one exception to this rule is {\itshape \hyperlink{execute_8c_a8e9aed155e5ccf7e207a8f3ce4789d83}{run\+\_\+cd()}}. In the {\itshape \hyperlink{structCDCommand}{C\+D\+Command}} structure, the field dir is the path that the user typed. This needs to be expanded to an absolute path with {\itshape realpath(3)} before you use it.
+When implementing the run\-\_\-$<$command type$>$ functions in \hyperlink{execute_8c}{src/execute.\-c}, the command structures usually hold everything needed to pass to the corresponding function calls. For example, the {\itshape \hyperlink{structGenericCommand}{Generic\-Command}} structure contains an args field fully formatted and ready to pass into the argv argument of the {\itshape execvp(3)} library function. The one exception to this rule is {\itshape \hyperlink{execute_8c_a8e9aed155e5ccf7e207a8f3ce4789d83}{run\-\_\-cd()}}. In the {\itshape \hyperlink{structCDCommand}{C\-D\-Command}} structure, the field dir is the path that the user typed. This needs to be expanded to an absolute path with {\itshape realpath(3)} before you use it.
 
-You should not have to search for environment variables (\$) in your functions. The parser uses your implementation of {\itshape \hyperlink{execute_8c_afeab372587374ba444aa9bdfb6cfa0d8}{lookup\+\_\+env()}} function to expand the environment variables for you.
+You should not have to search for environment variables (\$) in your functions. The parser uses your implementation of {\itshape \hyperlink{execute_8c_afeab372587374ba444aa9bdfb6cfa0d8}{lookup\-\_\-env()}} function to expand the environment variables for you.
 
 \subsection*{Testing}
 
-There is an automated testing script written for this project in run\+\_\+tests.\+bash. Using the \char`\"{}make test\char`\"{} target in the make file will run the ./run-\/tests.bash command present in the Makefile. If you want more control you may run this script directly from the command line with \char`\"{}./run\+\_\+tests.\+bash \mbox{[}-\/cdstuv\mbox{]}\char`\"{}. The various options are listed below or with \char`\"{}./run\+\_\+tests.\+bash -\/h\char`\"{}.
+There is an automated testing script written for this project in run\-\_\-tests.\-bash. Using the \char`\"{}make test\char`\"{} target in the make file will run the ./run-\/tests.bash command present in the Makefile. If you want more control you may run this script directly from the command line with \char`\"{}./run\-\_\-tests.\-bash \mbox{[}-\/cdstuv\mbox{]}\char`\"{}. The various options are listed below or with \char`\"{}./run\-\_\-tests.\-bash -\/h\char`\"{}.
 
 
 \begin{DoxyItemize}
 \item -\/c Clean up all files created during testing.
 \item -\/d If there is a difference between what is seen and what is expected this option will immediately print out the diff file rather than telling you where you can find the diff file.
 \item -\/p Allow all tests to be run in parallel as background processes. This will greatly speed up the testing process but output to the command line will be scattered.
-\item -\/s Keep the sandbox directory around after testing (this is a debug option for the tester and probably not of much use unless modifying run-\/tests.\+bash).
-\item -\/t Keep the the temporary directory \char`\"{}test-\/cases/$<$test-\/name-\/dir$>$/.\+tmp\char`\"{} around after tests are complete (this is a debug option for the tester and probably not of much use unless modifying run-\/tests.\+bash).
+\item -\/s Keep the sandbox directory around after testing (this is a debug option for the tester and probably not of much use unless modifying run-\/tests.\-bash).
+\item -\/t Keep the the temporary directory \char`\"{}test-\/cases/$<$test-\/name-\/dir$>$/.\-tmp\char`\"{} around after tests are complete (this is a debug option for the tester and probably not of much use unless modifying run-\/tests.\-bash).
 \item -\/v Print out all output from the test case if diff picked up any differences between the test output and expected output.
 \end{DoxyItemize}
 
 \subsection*{Grading Policy}
 
-Partial credit will be given for incomplete programs. However, a program that cannot compile will get 0 points. The feature tests are placed into multiple tiers of completeness. The output to standard out from your code must match our output exactly, except for whitespace, for the next tier of grading to be accessible. This is due to reliance of previous tiers in subsequent tier tests. If we cannot run your code in one tier then it becomes far more difficult test later tiers. The point breakdown for features is below\+:
+Partial credit will be given for incomplete programs. However, a program that cannot compile will get 0 points. The feature tests are placed into multiple tiers of completeness. The output to standard out from your code must match our output exactly, except for whitespace, for the next tier of grading to be accessible. This is due to reliance of previous tiers in subsequent tier tests. If we cannot run your code in one tier then it becomes far more difficult test later tiers. The point breakdown for features is below\-:
 
-\tabulinesep=1mm
-\begin{longtabu} spread 0pt [c]{*2{|X[-1]}|}
+\begin{TabularC}{2}
 \hline
-\rowcolor{\tableheadbgcolor}{\bf Description  }&{\bf Score   }\\\cline{1-2}
-\endfirsthead
-\hline
-\endfoot
-\hline
-\rowcolor{\tableheadbgcolor}{\bf Description  }&{\bf Score   }\\\cline{1-2}
-\endhead
+\rowcolor{lightgray}{\bf Description  }&{\bf Score   }\\\cline{1-2}
 
 \begin{DoxyItemize}
 \item Tier 0  
@@ -365,8 +265,8 @@ Partial credit will be given for incomplete programs. However, a program that ca
 \end{DoxyItemize}
 \item Environment Variables  
 \begin{DoxyItemize}
-\item echo with environment variables (echo \$\+H\+O\+ME)  
-\item Execution with environment variables (du -\/H \$\+P\+WD/..) 
+\item echo with environment variables (echo \$\-H\-O\-M\-E)  
+\item Execution with environment variables (du -\/\-H \$\-P\-W\-D/..) 
 \end{DoxyItemize}
 \end{DoxyItemize}
 \end{DoxyItemize}&30\%   \\\cline{1-2}
@@ -379,12 +279,12 @@ Partial credit will be given for incomplete programs. However, a program that ca
 \item jobs  
 \item kill  
 \end{DoxyItemize}
-\item Piping output between one command and another (find -\/type f $|$ grep \textquotesingle{}$\ast$.c\textquotesingle{})  
-\item \hyperlink{structRedirect}{Redirect} standard input to any command from file (cat $<$ a.\+txt)  
-\item \hyperlink{structRedirect}{Redirect} standard output from a command to a file (cat b.\+txt $>$ a.\+txt)  
+\item Piping output between one command and another (find -\/type f $|$ grep '$\ast$.c')  
+\item \hyperlink{structRedirect}{Redirect} standard input to any command from file (cat $<$ a.\-txt)  
+\item \hyperlink{structRedirect}{Redirect} standard output from a command to a file (cat b.\-txt $>$ a.\-txt)  
 \item Background processes  
 \begin{DoxyItemize}
-\item Job completion notification  
+\item \hyperlink{structJob}{Job} completion notification  
 \end{DoxyItemize}
 \end{DoxyItemize}
 \end{DoxyItemize}&30\%   \\\cline{1-2}
@@ -392,9 +292,9 @@ Partial credit will be given for incomplete programs. However, a program that ca
 \begin{DoxyItemize}
 \item Tier 4 (extra credit)  
 \begin{DoxyItemize}
-\item Pipes and redirects can be mixed (cat $<$ a.\+txt $|$ grep -\/o World $|$ cat $>$ b.\+txt)  
+\item Pipes and redirects can be mixed (cat $<$ a.\-txt $|$ grep -\/o World $|$ cat $>$ b.\-txt)  
 \item Pipes and redirects work with built-\/in commands  
-\item Append redirection (cat a.\+txt $|$ grep -\/o World $>$$>$ b.\+txt)  
+\item Append redirection (cat a.\-txt $|$ grep -\/o World $>$$>$ b.\-txt)  
 \end{DoxyItemize}
 \end{DoxyItemize}&10\%   \\\cline{1-2}
 
@@ -417,12 +317,12 @@ Partial credit will be given for incomplete programs. However, a program that ca
 \end{DoxyItemize}
 \end{DoxyItemize}
 \end{DoxyItemize}&-\/5\% from tier grade down to 0\% for each tier with violations   \\\cline{1-2}
-\end{longtabu}
+\end{TabularC}
 
 
 \subsection*{Submission}
 
-Each group should submit the project to your TA via Blackboard. Create a zip file of your code using \char`\"{}make submit\char`\"{}. You should also check that the zipped project still builds and runs correctly after building the submit target with \char`\"{}make unsubmit\char`\"{}. Your TA will be using this command to extract and build your project so make sure it works correctly. If you modify either of these targets, please ensure all file extensions are renamed to \char`\"{}.\+txt\char`\"{} in the submission and extract correctly with the unsubmit target.
+Each group should submit the project to your T\-A via Blackboard. Create a zip file of your code using \char`\"{}make submit\char`\"{}. You should also check that the zipped project still builds and runs correctly after building the submit target with \char`\"{}make unsubmit\char`\"{}. Your T\-A will be using this command to extract and build your project so make sure it works correctly. If you modify either of these targets, please ensure all file extensions are renamed to \char`\"{}.\-txt\char`\"{} in the submission and extract correctly with the unsubmit target.
 
 \subsection*{Miscellaneous}
 
