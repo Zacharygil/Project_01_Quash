@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce6916fb-09cc-42de-bb3d-ecc298ea6e16" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.valgrind_expected.txt" afterPath="$PROJECT_DIR$/.valgrind_expected.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ForeGroundJob.h" afterPath="$PROJECT_DIR$/src/ForeGroundJob.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/execute.c" afterPath="$PROJECT_DIR$/src/execute.c" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,21 +35,11 @@
       <file leaf-file-name="execute.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/execute.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="3765">
+              <caret line="251" column="18" lean-forward="false" selection-start-line="251" selection-start-column="18" selection-end-line="251" selection-end-column="18" />
               <folding>
-                <element signature="e#246#266#0" expanded="true" />
+                <element signature="e#246#264#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".valgrind_expected.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.valgrind_expected.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,24 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_tests.bash" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_tests.bash">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JobHandler.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JobHandler.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-              <folding>
-                <element signature="e#51#70#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +67,7 @@
       <file leaf-file-name="execute.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/execute.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2460">
+            <state relative-caret-position="623">
               <caret line="164" column="3" lean-forward="false" selection-start-line="164" selection-start-column="3" selection-end-line="164" selection-end-column="3" />
               <folding>
                 <element signature="e#134#154#0" expanded="true" />
@@ -99,8 +79,18 @@
       <file leaf-file-name="JobHandler.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JobHandler.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForeGroundJob.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ForeGroundJob.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -109,7 +99,7 @@
       <file leaf-file-name="deque.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/deque.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8940">
+            <state relative-caret-position="6128">
               <caret line="596" column="75" lean-forward="false" selection-start-line="596" selection-start-column="75" selection-end-line="596" selection-end-column="75" />
               <folding>
                 <element signature="e#142#161#0" expanded="true" />
@@ -133,7 +123,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#577#729#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,13 +151,14 @@
         <option value="$PROJECT_DIR$/src/parsing/BackGroundJob.h" />
         <option value="$PROJECT_DIR$/src/JobHandler.c" />
         <option value="$PROJECT_DIR$/src/ForeGroundJob.c" />
-        <option value="$PROJECT_DIR$/src/ForeGroundJob.h" />
         <option value="$PROJECT_DIR$/src/deque.h" />
         <option value="$PROJECT_DIR$/src/JobHandler.h" />
         <option value="$PROJECT_DIR$/src/BackGroundJob.h" />
         <option value="$PROJECT_DIR$/src/execute.h" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/valgrind_expected.txt" />
+        <option value="$PROJECT_DIR$/.valgrind_expected.txt" />
+        <option value="$PROJECT_DIR$/src/ForeGroundJob.h" />
         <option value="$PROJECT_DIR$/src/execute.c" />
       </list>
     </option>
@@ -178,6 +171,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
@@ -206,6 +200,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project_01_Quash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project_01_Quash" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project_01_Quash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,18 +438,18 @@
       <option name="presentableId" value="Default" />
       <updated>1519155102667</updated>
       <workItem from="1519155104540" duration="9583000" />
-      <workItem from="1519266537768" duration="851000" />
+      <workItem from="1519266537768" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10434000" />
+    <option name="totallyTimeSpent" value="11636000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-3" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12708499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.098490864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -487,7 +495,7 @@
         <state relative-caret-position="5895">
           <caret line="393" column="0" lean-forward="true" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
           <folding>
-            <element signature="e#246#266#0" expanded="true" />
+            <element signature="e#246#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -512,9 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#70#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +564,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#577#729#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -584,13 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForeGroundJob.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -605,18 +606,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/debug.h">
+    <entry file="file://$PROJECT_DIR$/.valgrind_expected.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="154" lean-forward="false" selection-start-line="16" selection-start-column="154" selection-end-line="16" selection-end-column="154" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -629,44 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JobHandler.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="e#51#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/execute.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2460">
-          <caret line="164" column="3" lean-forward="false" selection-start-line="164" selection-start-column="3" selection-end-line="164" selection-end-column="3" />
-          <folding>
-            <element signature="e#134#154#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JobHandler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/deque.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8940">
-          <caret line="596" column="75" lean-forward="false" selection-start-line="596" selection-start-column="75" selection-end-line="596" selection-end-column="75" />
-          <folding>
-            <element signature="e#142#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BackGroundJob.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -675,20 +630,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.valgrind_expected.txt">
+    <entry file="file://$PROJECT_DIR$/src/debug.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="e#577#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/execute.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="164" column="3" lean-forward="false" selection-start-line="164" selection-start-column="3" selection-end-line="164" selection-end-column="3" />
+          <folding>
+            <element signature="e#134#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/deque.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6128">
+          <caret line="596" column="75" lean-forward="false" selection-start-line="596" selection-start-column="75" selection-end-line="596" selection-end-column="75" />
+          <folding>
+            <element signature="e#142#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ForeGroundJob.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quash.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#115#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JobHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JobHandler.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="154" lean-forward="false" selection-start-line="16" selection-start-column="154" selection-end-line="16" selection-end-column="154" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/execute.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="3765">
+          <caret line="251" column="18" lean-forward="false" selection-start-line="251" selection-start-column="18" selection-end-line="251" selection-end-column="18" />
           <folding>
-            <element signature="e#246#266#0" expanded="true" />
+            <element signature="e#246#264#0" expanded="true" />
           </folding>
         </state>
       </provider>

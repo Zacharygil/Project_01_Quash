@@ -7,15 +7,15 @@
  * @note As you add things to this file you may want to change the method signature
  */
 
-#include "execute.h"
-
-
-#include "quash.h"
-#include "JobHandler.h"
-
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/wait.h>
+
+#include "execute.h"
+#include "JobHandler.h"
+#include "quash.h"
+
+
 
 
 // Remove this and all expansion calls to it
