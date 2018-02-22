@@ -27,4 +27,4 @@ void destroy_job(Job* job);
 void destroy_job_callback(Job job);
 
 
-#endif //QUASH_JOBHANDLER_H_H
+#endif //JOBHANDLER_H

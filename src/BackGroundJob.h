@@ -15,4 +15,4 @@ IMPLEMENT_DEQUE_STRUCT ( background_job_queue_t, Job);
 //Declare a queue for storing jobs
 PROTOTYPE_DEQUE ( background_job_queue_t, Job);
 
-#endif //QUASH_BACKGROUNDJOB_H
+#endif //BACKGROUND_QUEUE_H

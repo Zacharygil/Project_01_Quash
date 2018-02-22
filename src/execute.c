@@ -9,7 +9,6 @@
 
 #include "execute.h"
 
-#include <stdio.h>
 
 #include "quash.h"
 #include "JobHandler.h"
@@ -17,15 +16,12 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/wait.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <sys/stat.h>
-#include <stdlib.h>
+
 
 //Memory Constraint
 #define TAKEOVER 1
-#define WRITEND 1
-#define READEND 0
+#define WRITE_END 1
+#define READ_END 0
 #define SIZE 512
 
 
@@ -53,8 +49,8 @@ IMPLEMENT_DEQUE(Jobs, struct Job);
 /**
  * @brief Note calls to any function that requires implementation
  */
-//#define IMPLEMENT_ME()                                                  \
- // fprintf(stderr, "IMPLEMENT ME: %s(line %d): %s()\n", __FILE__, __LINE__, __FUNCTION__)
+#define IMPLEMENT_ME()                                                  \
+ fprintf(stderr, "IMPLEMENT ME: %s(line %d): %s()\n", __FILE__, __LINE__, __FUNCTION__)
 
 /***************************************************************************
  * Interface Functions
@@ -376,23 +372,27 @@ void run_kill(KillCommand cmd) {
 
   // TODO: Kill all processes associated with a background job
   //IMPLEMENT_ME();
-   int job_length = length_background_job_queue_t(&background_queue);
-    for(int i = 0; i < job_length; i++)
+   int job_queue_length = length_background_job_queue_t(&background_queue);
+    for(int i = 0; i < job_queue_length; i++)
     {
       //
         //  struct Job job;
-        Job job = pop_front_backgorund_job_queue_t(&background_queue);
+        Job job = pop_front_background_job_queue_t(&background_queue);
         if (job_id == job.job_id){
             //Pids job_queue;
             int process_queue_length;
             //job_queue= job.pids;
-
-
+            job_process_queue_t queue;
+            queue = job.process_queue;
             process_queue_length = length_job_process_queue_t(&queue);
+
             for(int j=0; j< process_queue_length; j++ ){
+
                 int pid = pop_front_job_process_queue_t(&queue);
+
                 kill(pid,signal);
-                push_back_process_queue_t(&queue,pid);
+
+                push_back_job_process_queue_t(&queue,pid);
             }
             push_back_background_job_queue_t(&background_queue,job);
         }
@@ -564,7 +564,7 @@ void parent_run_command(Command cmd) {
  *
  * @sa Command CommandHolder
  */
-void create_process(CommandHolder holder) {
+void create_process(CommandHolder holder, Job* current_job, int stepOfJob) {
   // Read the flags field from the parser
   bool p_in  = holder.flags & PIPE_IN;
   bool p_out = holder.flags & PIPE_OUT;
@@ -774,7 +774,7 @@ void run_script(CommandHolder* holders) {
    // int Pipes[sizeof(holders)][2];
     // Run all commands in the `holder` array
     for (int i = 0; (type = get_command_holder_type(holders[i])) != EOC; ++i){
-        create_process(holders[i]);
+        create_process(holders[i], &current_job, i);
 }
 
 
