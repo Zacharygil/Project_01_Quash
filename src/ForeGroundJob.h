@@ -2,8 +2,8 @@
 // Created by Zachary Gilchrist on 2/21/18.
 //
 
-#ifndef FOREGROUNDJOB_H
-#define FOREGROUNDJOB_H
+#ifndef QUEUE_H
+#define QUEUE_H
 
 #include "deque.h"
 

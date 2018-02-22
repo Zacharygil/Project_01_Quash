@@ -1,5 +1,5 @@
 STUDENTID = 2628161
-PROGNAME = Project_01_Quash
+PROGNAME = quash
 
 CC = gcc --std=gnu11
 CFLAGS = -Wall -g

@@ -2,8 +2,8 @@
 // Created by Zachary Gilchrist on 2/21/18.
 //
 
-#ifndef JOBHANDLER_H
-#define JOBHANDLER_H
+#ifndef JOB_H
+#define JOB_H
 
 #include "ForeGroundJob.h"
 
